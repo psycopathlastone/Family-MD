@@ -1,14 +1,17 @@
-const qrku = "https://i.ibb.co/MnbqZ0N/qr-Aguz-Familia-07-06-22-1654614928.png"
+const qrku = "https://telegra.ph/file/a8ec3406cae4f18f87811.jpg"
 
 let handler = async (m, { conn, usedPrefix }) => conn.sendButtonImg(m.chat, qrku, `
-╭─「 Donasi • Dana 」
-│ • Telkomsel [081320170984]
-│ • Dana  [081320170984]
+╭─「 Donasi • E-money 」
+│ • Smartfren : 088293522266
+│ • Axis : 083876760709
+│ • Gopay : 0882932522266
+│ • Dana : 083173593053
+│ • Shopee Pay : 083179552930
 ╰────
 ╭─「 *NOTE* 」
-│ > Ingin donasi? Wa.me/6281320170984
+│ > Ingin donasi? wa.me/6288293522266
 │ _Hasil donasi akan digunakan buat sewa_
-│ _atau beli *RDP/VPS* agar bot bisa jalan_
+│ _atau beli *PANEL/RDP* agar bot bisa jalan_
 │ _24jam tanpa kendala_
 ╰────
 `.trim(), wm, 'Menu', usedPrefix + 'menu', m) // Tambah sendiri kalo mau
