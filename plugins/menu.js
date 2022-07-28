@@ -10,17 +10,18 @@ const defaultMenu = {
 │
 │• Tersisa : %limit Limit
 │• Role : %role
-│• Level : %level (%exp / %maxexp)* [%xp4levelup]
+│• Level : %level (%exp / %maxexp)
+│• Level Up : [%xp4levelup]
 │• Exp : %totalexp
 │
 │• Tanggal : %week %weton, %date
 │• Tanggal Islam : %dateIslamic
 │• Waktu : %time
 │
-│• Uptime: *%uptime (%muptime)*
-│• Database: %rtotalreg dari %totalreg
-│• Github:
-│ %github
+│• Uptime : *%uptime (%muptime)*
+│• Database : %rtotalreg dari %totalreg
+│• Instagram :
+│• instagram.com/andrianlastone
 └────────────⬣
 %readmore`.trim(),
   header: '┌─〔 %category 』─⬣',
